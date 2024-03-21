@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+html,body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
+}
+
+.heading {
+  text-align: center;
+  /* margin-top:  */
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 100%;
+  /* Allow the wrapper to take up the available width */
+  justify-content: space-between;
+}
+
+.card {
+  width: 240px;
+  /* Adjust card width based on your preference */
+  /* Remove fixed height to make the card square */
+  height: 400px;
+  padding: 2rem 1rem;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 2px 0px 7px white;
+  /* Updated box-shadow color */
+  transition: 0.5s ease-in-out;
+  margin-right: 2%;
+  /* Add a small gap between cards */
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(20px);
+  box-shadow: 2px 0px 10px rgba(14, 125, 119, 0.7);
+  /* Light red box shadow on hover */
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(150, 201, 61, 1));
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

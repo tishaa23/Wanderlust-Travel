@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       <div class="form-box">
+        <h1 id="title">
+            Sign Up
+        </h1>
+        <form>
+            <div class="input-grp">
+                <div class="input-field" id="namefield">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="input-field">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class='bx bxs-lock'></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <p>Forgot Password <a href="#">Click Here!</a></p>
+            </div>
+        <div class="btn-field">
+            <button type="button" id="Signupbtn">
+                Sign Up 
+            </button>
+            <button type="button" class="disable" id="Signinbtn">
+                Sign In 
+            </button>
+        </div>
+        </form>
+
+       </div>
+    </div>
+    <script>
+        let Signupbtn=document.getElementById("Signupbtn");
+        let Signinbtn=document.getElementById("Signinbtn");
+        let namefield=document.getElementById("namefield");
+        let title=document.getElementById("title");
+
+        Signinbtn.onclick=function(){
+            namefield.style.maxHeight="0";
+            title.innerHTML= "Sign In ";
+            Signupbtn.classList.add("disable");
+            Signinbtn.classList.remove("disable")
+
+        }
+        Signupbtn.onclick=function(){
+            namefield.style.maxHeight="60px";
+            title.innerHTML= "Sign Up ";
+            Signupbtn.classList.remove("disable");
+            Signinbtn.classList.add("disable")
+
+        }
+
+
+    </script>
+</body>
+</html>

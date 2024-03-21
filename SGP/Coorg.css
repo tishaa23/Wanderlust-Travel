@@ -1,0 +1,262 @@
+*{
+  margin: 0;padding: 0;
+}
+
+.section1
+{
+  margin: 0;padding: 0;
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  /* background-position: center; */
+  /* background-size: cover; */
+  background:url(coorg_coorg1.jpg);
+  background-size: cover;
+  display: flex;
+  background-repeat:no-repeat;
+  /* background-position:0rem; */
+  justify-content:center;
+  align-items: center;
+}
+.section1{
+  width:100%;
+}
+section::before
+{
+  info:'';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: white;
+  clip-path: polygon(100% 0,0 100%,100% 100%);
+}
+.info
+{
+  position: relative;
+  max-width: 900px;
+  text-align: center;
+}
+
+.req{
+    margin-top: 2px;
+    margin-left: 100px;
+    
+}
+
+.info h1{
+  margin: 0;padding: 0;
+  
+  font-size: 4em;
+} 
+ h1 {
+  margin-top: 5%;
+  margin-left: 75px;
+  font-size: 34px;
+  color: black;
+}
+nav ul{
+  margin-top: 5px;
+  margin-left: 40px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+
+
+nav ul li
+{
+  list-style: none;
+  margin: 20px;
+  font-size: 40px;
+  margin-left: 3px;
+   padding: 14px ;
+}
+
+.bcontain{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+
+  display: block;
+  
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  background-color: rgb(244, 253, 253);
+}
+
+.box {
+    
+    margin: 100px auto;
+    width: 75%;
+    display: block;
+  }
+  img{
+      max-width: 350px;
+      float: left;
+      border-radius: 10px;
+      border: 3px solid white;
+      margin-right: 20px;
+  }
+
+.text h2{
+  font-size: 50px;
+  padding: 5px;
+}
+
+.text p{
+  font-size: 22px;
+  padding: 6px;
+  text-align:justify;
+}
+
+
+.name
+{
+  margin-left: 45px;
+  margin-top: 5px;
+}
+
+
+.Destin
+{
+  .bcontain
+  {
+   /* display: flex; */
+   
+
+    .box
+    {
+      text-align: center;
+      display: table;
+      padding: 1.7rem;
+      /* clip-path: square; */
+      border-radius: 50%;
+      
+
+    }
+  }
+  
+}
+.box img{
+  
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+p{
+  font-size: 1.5rem;
+  margin-left: 6px;
+}
+/* .Destin
+{
+  /* margin-left: 10px; */
+  /* height: 45vh;
+  margin-top: 18px;
+  transition: all ease 1s; */
+/* } */ 
+
+/* .Destin img */
+
+  /* margin-left: 15px;
+  height: 250px;
+  width: 250px;
+  clip-path:circle(); */
+
+/* .Destin:hover img{ */
+  /* scale: 1.2; */
+  /* } */
+nav{
+  margin-top: 15px;
+}
+.hori{
+  position: relative;
+  font-size:18px;
+  text-align: center;
+  margin-left:120px;
+  margin-top: 10px;
+  
+}
+.vs{
+  margin-left: 120px;
+  margin-right: 50px;
+  padding: 15px;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  word-spacing: 15px;
+  height: 250px;
+  
+}
+.visit p{
+  margin-left: 120px;
+  margin-right: 50px;
+  padding: 15px;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  word-spacing: 15px;
+  height: 250px;
+}
+.Bt{
+  padding: 10px 20px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.buttion{
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.php {
+  font-size: 40px;
+}
+
+.Inclu ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  float: left;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.Inclu li img {
+  height: 100px;
+  width: 100px;
+  
+}
+
+.buttion{
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+.Bt a{
+  text-decoration: none;
+color: azure; 
+}
+
+
+.Inclu{
+  height: 10vh;
+}
+
+
+.Inclu h2{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+ 

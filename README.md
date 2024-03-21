@@ -1,0 +1,1 @@
+This travel website is basically a static website using HTML,CSS and Javascript where user can choose tours and packages of states of India. A feedback mechanism using Javascript which allows users to share their feedback and lastly a login, signin, hotel booking form for the same is also there.
